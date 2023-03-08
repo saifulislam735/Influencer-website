@@ -5,7 +5,7 @@ common uses utilities
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Work+Sans:ital,wght@0,400;0,600;1,400&display=swap');
 body{
     margin: 0px;
-    background-color:#AAAAAA;;
+    background-color:#f1eded;;
     font-family:'Poppins', sans-serif;
 }
 
@@ -111,9 +111,10 @@ body{
    margin: 0px 196px;
 
 }
-.side-grids-title{
+.site-grids-title{
    font-size: 28px;
    font-weight: 600;
+   color: #3A3A3A;
 }
 .grids{
    display: grid;
@@ -125,6 +126,8 @@ body{
    text-align: justify;
    background-color: white;
    padding: 15px;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   border-radius: 5px;
 }
 .grid-image{
    display: flex;
@@ -200,3 +203,27 @@ body{
   .join-now-arrow{
    color:white;
   }
+
+  /*---------------------
+            footer 
+   ---------------------*/
+   .footer{
+      background-color: navy;
+      text-align: center;
+      padding: 50px 589px;
+   }
+   .footer-title{
+      font-size: 24px;
+      color: #FFFFFF;
+   }
+   .footer-credit{
+      color: #D9DBE1;
+      font-size: 14px;
+      
+   }
+   .footer-icons{
+      margin-top: 17px;
+   }
+   .footer-icons i{
+      color: white;
+   }
