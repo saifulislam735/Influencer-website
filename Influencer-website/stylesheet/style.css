@@ -75,7 +75,7 @@ body{
    border-radius: 41px;
    gap: 6px;
 }
-.fa-arrow-right{
+.banner-arrow{
    color: #FFFFFF;
 }
 .banner-images{
@@ -159,7 +159,7 @@ body{
    font-size: 14px;
    color: #787885;
 }
-.grids-see-more,.fa-arrow-right{
+.grids-see-more,.see-more-arrow{
    color:#E02C6DDE;
 }
 .grids-see-more{
